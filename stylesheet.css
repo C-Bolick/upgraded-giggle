@@ -147,7 +147,6 @@ h2 {
     
  }
 .name {
-    background-color: pink;
     width: 100%;
     padding: 5%;
 }
@@ -159,7 +158,7 @@ h1 {
 
 a:hover {
     text-decoration: underline;
-    color: blue;
+    color: lightblue;
     cursor: pointer;
 }
 
@@ -174,6 +173,5 @@ span {
 }
 
 .header-txt .right-header {
-    background-color: purple;
     padding: 5%;
 }
