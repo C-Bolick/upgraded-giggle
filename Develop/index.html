@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel = "stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel = "stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body class = "main-content">
+    <header class = "section sec1 header active" id="home">
+        <div class="header-txt">
+
+            <div class="left-header">
+                <div class="image">
+                        <img src="./assets/images/img1.png" alt="avatar">
+                </div>
+            </div>
+
+            <div class="right-header">
+                <h1 class="name">
+                Catherine Bolick
+                </h1>
+
+                <p>
+                Hi! I'm Catherine and this is my portfolio.
+                </p>
+                <a href="https://docs.google.com/document/d/1D88nxLQ13mlUS06gTSOt8EEmCwuMZbQI/edit?usp=sharing&ouid=112375493840234836695&rtpof=true&sd=true" class="download-btn">
+                    <span class="btn-text">Download Resume</span>
+                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                </a>
+
+                <p>
+                    <h2>
+                        * NOTE : Still in the works, sorry for the bugs.
+                    </h2>
+                </p>
+            </div>
+        </div>
+    </header>
+            
+    
+    <main>
+        <section class = "section sec2 about" id="about">
+            <h1>About</h1>
+            <p>I  recently completed the UNCC MERN full-stack workshop and gotten my certificate.
+               I graduated college in 2019 with a B.S. in Civil Engineering and am still working
+               towards passing my FE. I studied at the University of North Carolina A&T State University 
+               and graduated with a cumlative GPA of 3.54 along with honors.
+            </p>
+        </section>
+
+        <section class = "section sec3 portfolio" id="portfolio">
+            <h1>Portfolio</h1>
+            <ul>
+                <li>
+            <a href="https://craigien.github.io/super-duper-winner-project-01/">Project 1: Lodestar Blackjack</a>
+        <p>This project was intended for us to utilize third party apis as well as create our own web application.
+            As you can see from the name itself, my group chose to do a Blackjack game that utilized
+            a deck shuffling api, but also a location api to show the user where they are connecting
+            from. Read more <span><a herf="https://github.com/Craigien/super-duper-winner-project-01">here</a></span>
+        </p>
+    </li>
+    <li>
+            <a herf="https://fathomless-shore-00999-99874d90faa8.herokuapp.com/">Project 2</a>
+            </li>
+                <li>
+                    <a href="https://immense-river-45225-27301b71a076.herokuapp.com/">Project 3</a></li>
+            
+            </ul>
+        </section>
+
+        <section class = "section sec4 contact" id="contact">
+            <h1>Contact</h1>
+            <ul>
+                <li>Email: cgbolick@gmail.com</li>
+                <li>Phone: 111-111-1111</li>
+                <li>linkden: <a href="https://www.linkedin.com/in/catherine-bolick-611327124/">Profile</a></li>
+                <li>github: <a href="https://github.com/C-Bolick">github</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <div class="controls">
+
+        <div class = "control control-1 active-bnt" data-id="main">
+            <i class="fa-solid fa-house"></i>
+        </div>
+
+        <div class="control control-2" data-id="about">
+            <i class="fa-solid fa-user"></i>
+        </div>
+
+        <div class="control control-3" data-id="portfolio">
+            <i class ="fa-solid fa-briefcase"></i>
+        </div>
+
+        <div class="control control-4" data-id="contact">
+            <i class="fa-solid fa-pen-nib"></i>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
